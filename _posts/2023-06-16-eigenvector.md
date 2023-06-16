@@ -8,6 +8,7 @@ image2: /assets/article_images/background_img/white_writing-mobile.jpg
 excerpt: eigen value, eigen vector에 대해 알아봅니다.
 ---
 
-<center>
+<!-- <center>
 {% include plotly/eigenvectors_1.html %}
-</center>
+</center> -->
+# summary
