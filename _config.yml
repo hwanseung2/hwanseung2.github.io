@@ -1,0 +1,71 @@
+# Build settings
+gems:
+  - jekyll-paginate
+  - jekyll-toc
+  - jekyll-sitemap
+markdown: kramdown
+# Site settings
+title: "Hwanseung Yoo"
+description: > # this means to ignore newlines until "email:"
+   hwanseung's blog
+
+email: wazs555@hufs.ac.kr
+#blog logo
+logo: "/assets/images/profile_image_resized.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/article_images/background_img/white_writing.jpg"
+
+name: 'hwanseung'
+author: 'hwanseung'
+author_image: "/assets/images/profile_image_resized.jpg"
+
+paginate:	5
+
+url: "https://hwanseung2.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+# twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+google_analytics: G-FZCCBXJZ09
+
+# social icons and sharing options
+social:
+  # - icon:	twitter
+  #   url:	https://twitter.com/dirkfabisch
+  #   desc: Follow me on twitter
+  #   share_url: http://twitter.com/share
+  #   share_title: ?text=
+  #   share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/hwanseung2
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/hwanseung2/
+    desc:	linkedin
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
