@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[선형대수] eigen value * eigen vector"
+title:  "[선형대수] eigen value & eigen vector"
 date:   2023-06-16 23:36:00
 categories: linearalgebra plotly
 image: /assets/article_images/background_img/white_writing.jpg
