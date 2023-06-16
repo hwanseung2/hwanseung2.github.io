@@ -9,5 +9,5 @@ excerpt: eigen value, eigen vector에 대해 알아봅니다.
 ---
 
 <center>
-{% include plotly/example.html %}
+{% include plotly/eigenvectors_1.html %}
 </center>
