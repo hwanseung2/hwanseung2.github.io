@@ -12,3 +12,7 @@ excerpt: eigen value, eigen vector에 대해 알아봅니다.
 {% include plotly/eigenvectors_1.html %}
 </center>
 # summary
+
+<center>
+{% include plotly/eigenvectors_1_with_650.html %}
+</center>
