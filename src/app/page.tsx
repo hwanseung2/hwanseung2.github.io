@@ -4,14 +4,21 @@ import Sidebar from "@/components/sidebar";
 import { getPosts } from "@/app/lib/posts";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: { page?: string; category?: string };
-}) {
-  const currentPage = Number(searchParams?.page) || 1;
+export const dynamic = "force-dynamic";
+
+interface Props {
+  searchParams?: {
+    page?: string;
+    category?: string;
+  };
+}
+
+export default async function Home({ searchParams = {} }: Props) {
+  const params = await Promise.resolve(searchParams);
+  const page = params.page ?? "1";
+  const currentPage = parseInt(page, 10);
   const postsPerPage = 5;
-  const category = searchParams?.category || "all";
+  const category = params.category ?? "all";
 
   const { posts, total } = await getPosts({
     page: currentPage,
